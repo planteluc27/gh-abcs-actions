@@ -20,7 +20,6 @@ jobs:
 
       - name: hello-action
         uses: ./.github/actions/hello-world-js
-        uses: ./.github/actions/hello-world-js
         if: ${{ success() }}
 
       - name: ha-ha
