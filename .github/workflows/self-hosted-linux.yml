@@ -2,6 +2,7 @@ name: 06-1. Self-Hosted Linux Hello - Never run on public repo
 
 on:
   workflow_dispatch:
+  workflow_call:
     inputs:
       name:
         description: 'What is your name?'

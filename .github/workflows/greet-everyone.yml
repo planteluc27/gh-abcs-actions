@@ -10,12 +10,14 @@ on:
         required: true
         type: string
 
-  workflow_dispatch:
+  workflow_call:
     inputs:
       name:
         description: 'What is your name?'
         required: false
         default: 'Octocat'
+  
+  workflow_dispatch:
  
 jobs:
   greet-users:
