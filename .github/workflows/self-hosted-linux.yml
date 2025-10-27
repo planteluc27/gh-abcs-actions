@@ -8,6 +8,7 @@ on:
         description: 'What is your name?'
         required: true
         default: 'World'
+        type: string
         
 jobs:
   say_hello: 
