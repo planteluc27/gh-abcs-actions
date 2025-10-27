@@ -8,7 +8,6 @@ on:
 # Limit the permissions of the GITHUB_TOKEN
 permissions:
   contents: read
-  issues: write
 
 jobs:
   
@@ -20,6 +19,7 @@ jobs:
       - run: echo "🎉 Running the JS actions"
 
       - name: hello-action
+        uses: ./.github/actions/hello-world-js
         uses: ./.github/actions/hello-world-js
         if: ${{ success() }}
 

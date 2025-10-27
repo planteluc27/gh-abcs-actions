@@ -27,7 +27,6 @@ on:
 permissions:
   contents: read
   deployments: read
-  actions: write
   
 jobs:
   review_pending_deployments:
