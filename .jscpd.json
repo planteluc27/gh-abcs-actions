@@ -1,0 +1,17 @@
+{
+  "threshold": 5,
+  "exclude": [
+    "**/node_modules/**",
+    "**/package-lock.json",
+    "**/.github/workflows/github-actions-demo.yml",
+    "**/.github/workflows/required-workflow.yml",
+    "**/labs/lab02.md",
+    "**/labs/lab04.md"
+  ],
+  "reporters": ["json", "console"],
+  "reportersOptions": {
+    "json": {
+      "file": "jscpd-report.json"
+    }
+  }
+}
