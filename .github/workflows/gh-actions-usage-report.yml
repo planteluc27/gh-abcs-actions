@@ -1,5 +1,8 @@
 name: 00. GitHub Actions Usage Report (WIP)
 
+permissions:
+  contents: read
+
 on:
   workflow_dispatch:
   schedule:

@@ -11,6 +11,9 @@ name: 04-2. Lint Code Base
 # https://docs.github.com/en/actions/learn-github-actions/workflow-syntax-for-github-actions
 #
 
+permissions:
+  contents: read
+
 #############################
 # Start the job on all push #
 #############################

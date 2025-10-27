@@ -11,6 +11,9 @@
 #
 name: "00. Security CodeQL Analysis"
 
+permissions:
+  contents: read
+
 on:
   push:
     branches: [ main ]
