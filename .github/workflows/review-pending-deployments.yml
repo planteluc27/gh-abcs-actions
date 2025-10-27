@@ -1,27 +1,27 @@
 name: 03-2. Review Pending Deployments (WIP)
 on: 
   workflow_dispatch:
-    inputs:
-      run_id:
-        description: 'run_id'
-        required: true
-        default: ''
-      environment_ids:
-        description: 'environment_ids'
-        required: true
-        default: ''
-      state:
-        description: 'state'
-        required: true
-        default: 'approved' 
-        type: choice
-        options:
-        - approved
-        - rejected
-      comment:
-        description: 'comment'
-        required: false
-        default: 'approved'
+    # inputs:
+    #   run_id:
+    #     description: 'run_id'
+    #     required: true
+    #     default: ''
+    #   environment_ids:
+    #     description: 'environment_ids'
+    #     required: true
+    #     default: ''
+    #   state:
+    #     description: 'state'
+    #     required: true
+    #     default: 'approved' 
+    #     type: choice
+    #     options:
+    #     - approved
+    #     - rejected
+    #   comment:
+    #     description: 'comment'
+    #     required: false
+    #     default: 'approved'
 
 # Limit the permissions of the GITHUB_TOKEN
 permissions:
